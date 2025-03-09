@@ -10,7 +10,7 @@ services:
     volumes:
       - mysql:/var/lib/mysql
   backend:
-    image: cekharch/backend:11
+    image: cekharch/backend:v11
     container_name: backend
     depends_on:
       - mysql
